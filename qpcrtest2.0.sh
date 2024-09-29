@@ -98,7 +98,7 @@ rm -rf ./$SpeciesName/*.blast.fa;
 
 echo "Step 6 was done"
 
-# Step 7. Index original cDNA fasts file. Then, check the specificity of primers using MFPrimer(索引需要一个psutil的py模块，mfeprimer目前已更新到第三代，但是功能有改变，尚未找到解决方案）
+# Step 7. Index original cDNA fasts file. Then, check the specificity of primers using MFPrimer
 
 IndexDb.sh $SpeciesName.shortname.fa
 
